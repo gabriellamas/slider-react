@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing:border-box;
+}
+button{
+  cursor: pointer;
+}
+
+body, input, button{
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.containerItems{
+  position: relative;
+  width: 100%;
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.item{
+  width: 100%;
+  padding:20px;
+  height: 300px;
+  flex-shrink: 0;
+}
+
+.item p{
+  background: #acacac;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+}
+.nav button{
+  padding:16px;
+  width:100%;
+}
